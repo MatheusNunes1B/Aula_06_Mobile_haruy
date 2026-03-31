@@ -137,7 +137,7 @@
                 renderizarBotoesCategorias();
                 //seleciona a 1ª categoria automatico
                 if (categoriasData.length > 0) {
-                    SelectionCategorias(categoriasData[0].id, categoriasData[0].nome);
+                    selecionarCategoria(categoriasData[0].id, categoriasData[0].nome);
                 }
             } catch (error) {
                 console.error('Erro ao carregar categorias:', error);
